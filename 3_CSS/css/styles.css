@@ -1,0 +1,43 @@
+/* 4 - External */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color:green
+}
+
+p {
+    color:blueviolet;
+}
+/* Comentário 1 */
+/* Comentário 2 */
+/* Comentário 3 */
+
+/* Classes */
+.paragraph {
+    background-color: #000;
+    color:aqua;
+    padding: 5px;
+}
+
+/* IDs */
+#Exclusive-Title {
+  background-color: purple;
+  color: yellow;
+  padding: 10px;
+  font-size: 40px;
+}
+
+/* Ordem das Regras */
+h2 {
+ border-bottom: 2px solid red;   
+}
+
+.titulo {
+ border-bottom: 3px solid blue;   
+}
+
+#algum-título {
+ border-bottom: 4px solid green;
+}
