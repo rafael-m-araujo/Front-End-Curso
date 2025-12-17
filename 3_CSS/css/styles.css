@@ -41,3 +41,8 @@ h2 {
 #algum-título {
  border-bottom: 4px solid green;
 }
+
+/* Nome de Cores */
+.color-name {
+    color: rgb(214, 94, 230);
+}
