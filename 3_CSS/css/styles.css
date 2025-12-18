@@ -82,3 +82,10 @@ h2 {
     color: rgba(200, 0, 0, 0.5)
 }
 
+.hsl {
+    color: hsl(200, 0%, 50%)
+}    
+
+.mixed-hsl {
+    color: hsl(100,59%,40%)
+}
