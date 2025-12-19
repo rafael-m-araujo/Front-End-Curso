@@ -7,9 +7,6 @@ h3 {
     color:green
 }
 
-p {
-    color:blueviolet;
-}
 /* Comentário 1 */
 /* Comentário 2 */
 /* Comentário 3 */
@@ -111,4 +108,12 @@ h2 {
 .opacity-bg2 {
     background-color:rgb(119, 248, 248);
     color: #000000;
+    opacity: 0.2;
+}
+
+/* RGBA com Opacidade */
+.rgba-opacity {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: #7c1212;
+   
 }
