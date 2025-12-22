@@ -117,3 +117,18 @@ h2 {
     color: #7c1212;
    
 }
+
+/* 20 - Bg Image */
+.bg-image {
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+}
+
+/* 21 - Centralizando Bg Image  */
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/bridge.jpg);
+}
