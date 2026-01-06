@@ -319,3 +319,84 @@ margin: 5px 10px 15px 20px;
 .spacing {
     letter-spacing: 5px;
 }
+
+/* Fontes */
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-style: "Courier New";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/* Text Style */
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/* Font Weight */
+.thin,
+.bold,
+.bolder {
+    font-family: Helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* Font Size */
+.small {
+    font-size: 6px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+/* Display */
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.invisible {
+    display: none;
+}
+
+/* Static */
+.static {
+    position: static;
+    background-color: rgb(137, 12, 148);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
