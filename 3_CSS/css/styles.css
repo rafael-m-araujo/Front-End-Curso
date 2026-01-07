@@ -400,3 +400,26 @@ margin: 5px 10px 15px 20px;
     width: 100px;
     height: 100px;
 }
+
+/* 44 - Relative */
+.relative {
+     position: relative;
+    background-color: rgb(44, 170, 219);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* 45 - Absolute */
+
+.absolute {
+    position: absolute;
+    background-color: rgb(219, 44, 137);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
