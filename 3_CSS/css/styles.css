@@ -401,7 +401,7 @@ margin: 5px 10px 15px 20px;
     height: 100px;
 }
 
-/* 44 - Relative */
+/* Relative */
 .relative {
      position: relative;
     background-color: rgb(44, 170, 219);
@@ -412,14 +412,90 @@ margin: 5px 10px 15px 20px;
     left: 40px;
 }
 
-/* 45 - Absolute */
-
+/* Absolute */
 .absolute {
     position: absolute;
     background-color: rgb(219, 44, 137);
     color: #fff;
     width: 100px;
     height: 100px;
-    top: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Relativo com Absolute */
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(255, 0, 0);
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Fixed */
+.fixed {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(220, 40, 40);
+    border: 1px solid rgb(40, 178, 247);
+    position: fixed; 
+    top: 50px;
+    right: 50px;
+}
+
+/* Sticky */
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(225, 0, 255);
+    border: 2px solid rgb(0, 255, 200);
+    position: sticky; 
+    top: 10px;
+}
+
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #244;
+    z-index: 2;
+}
+
+.absolute-5 {
+    top: 40px;
     left: 40px;
+    background-color: #453; 
+    z-index: 1;
 }
