@@ -1,4 +1,4 @@
-/* Media Query */
+/* 2 Media Query */
 h1 {
  color: red;
 }
@@ -9,7 +9,7 @@ h1 {
     }
 }
 
-/* Min-Width */
+/* 3 Min-Width */
 p {
     background-color: red;
     color: #000;
@@ -25,4 +25,10 @@ p {
 /* 4 - Landscape */
 h3  {
     display: none;
+}
+
+@media screen and (orientation: landscape) {
+    h3 {
+        display: block;
+    }
 }
